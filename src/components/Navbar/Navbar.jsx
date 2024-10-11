@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import Logo from '../../assets/website/logo-white.png';
 import { GrInstagram } from "react-icons/gr";
 
@@ -19,21 +20,32 @@ const Menus = [
     link: "/#about"
   },
 ]
+=======
+import Logo from '../../assets/website/logo.png';
+>>>>>>> 1b9d1e5636ac91947150b3740d1eb42260fe0a8f
 
 const Navbar = () => {
   return (
     <div className='bg-gradient-to-r from-secondary to-secondary/90 text-white'>
         <div className="container py-2">
+<<<<<<< HEAD
             <div className="flex justify-between items-center gap-4">
                 {/* Logo */}
                 <div className="">
                     <a href="#" className='font-bold text-2xl sm:text-3xl flex justify-center items-center gap-1 tracking-wider font-logo'>
+=======
+            <div className="flex">
+                {/* Logo */}
+                <div className="">
+                    <a href="#" className='font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive'>
+>>>>>>> 1b9d1e5636ac91947150b3740d1eb42260fe0a8f
                         <img src={Logo} alt="Logo" className="w-14" />
                         Agro Rocha
                     </a>
                 </div>
 
                 {/* Link */}
+<<<<<<< HEAD
                 <div className='flex justify-between items-center gap-4'>
                   <ul className='hidden sm:flex  items-center gap-4'>
                     {Menus.map((data, index) => (
@@ -54,6 +66,9 @@ const Navbar = () => {
                     </button>
                   </a>
                 </div>
+=======
+                <div></div>
+>>>>>>> 1b9d1e5636ac91947150b3740d1eb42260fe0a8f
            </div>
         </div>
     </div>
