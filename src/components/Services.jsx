@@ -1,7 +1,7 @@
 import React from 'react'
-import DogImg from '../../assets/website/sprite-dog.png'
-import CatImg from '../../assets/website/sprite-cat.png'
-import FishImg from '../../assets/website/sprite-fish.png'
+import DogImg from '../assets/website/sprite-dog.png'
+import CatImg from '../assets/website/sprite-cat.png'
+import FishImg from '../assets/website/sprite-fish.png'
 
 const ServicesData = [
     {

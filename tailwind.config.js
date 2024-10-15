@@ -8,7 +8,6 @@ export default {
     extend: {
       fontFamily: {
         sans: ["Poppins","sans-serif"],
-<<<<<<< HEAD
         logo: ["Mukta","sans-serif"],
       },
       colors: {
@@ -21,13 +20,6 @@ export default {
             pink: '#E1306C',
             orange: '#F77737',
           },
-=======
-      },
-      colors: {
-        primary: "#854d3d",
-        secondary: "#4a1e1b",
-        brandDark: "270c03",
->>>>>>> 1b9d1e5636ac91947150b3740d1eb42260fe0a8f
       },
       container: {
         center: true,
